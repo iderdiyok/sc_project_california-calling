@@ -1,0 +1,146 @@
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    h2{
+        font-size: 6em;
+    }
+    main{
+        .firstSection{
+            height: 260vh;
+        }
+        .thirdSection{
+            height: 120vh;
+        }
+        .fourthSection{
+            height: 170vh;
+        }
+    }
+}
+@media screen and (max-width: 991px){
+    h2{
+        font-size: 5em;
+    }
+    .p-0-1 {
+        padding: 2em 1em;
+    }
+    .bearText{
+        display: unset;
+        p{
+            font-size: 1.5em;
+        }
+        .titel{
+            margin: 3em 0;
+            width: unset;
+        }
+    }
+    main{
+        .firstSection{
+            height: 205vh;
+            .text{
+                margin: 12em 0;
+            }
+        }
+        .secondSection{
+            width: 80%;
+            height: unset;
+            margin: 0 auto;
+            text-align: center;
+            padding: 2em 0;
+            position: unset;
+            
+            img{
+                position: unset;
+            }
+            #action1, #action2{
+                width: 45%;
+            }
+            #action7{
+                width: 80%;
+            }
+            .titleAndText, .textMiddle{
+                width: unset;
+                margin: 5em auto;
+            }
+        }
+        .thirdSection{
+            height: 75vh;
+
+        }
+        .fourthSection{
+            height: 90vh;
+        }
+    }
+
+    footer{
+        height: 81vh;
+        .animated{
+            display: none;
+        }
+        .dayOfWeek{
+            display: block;
+        }
+        .join-us{
+            width: 50%;
+            p, h3{
+                margin-bottom: 20%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 680px){
+    h1{
+        font-size: 3.5em;
+    }
+    h2{
+        font-size: 3em;
+    }
+    .p-0-1 {
+        padding: 4em 1em;
+    }
+    main{
+        .firstSection{
+            height: 290vh;
+            .text{
+                margin: 4em 0;
+            }
+            .logoBtn {
+                padding: 12em 2em 0 2em;
+            }
+            .numberAndMap{
+                display: unset;
+                .textNumber {
+                    padding: 0em 3em;
+                }
+                img{
+                    padding: 0;
+                    width: 98%;
+                }
+            }
+        }
+        .thirdSection{
+            height: 100vh;
+        }
+        .fourthSection{
+            height: 120vh;
+            padding: 25% 0 0 10%;
+            #circle{
+                top: -5%;
+            }
+        }
+    }
+    footer{
+        height: 110vh;
+        .dayOfWeek{
+            height: 5rem;
+        }
+        .join-us{
+            width: 75%;
+        }
+        .logos{
+            display: block;
+            padding: 11% 15% 5% 10%;
+            .partner{
+                width: 70%;
+                padding-top: 1em;
+            }
+        } 
+    }
+}

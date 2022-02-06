@@ -1,0 +1,12 @@
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin imgWidthAndPosition($w, $t, $b, $r, $l){
+    width: $w;
+    top: $t;
+    bottom: $b;
+    right: $r;
+    left: $l;
+}

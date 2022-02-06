@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Non-solution styles */
+
+        .container {
+            display: flex;
+            justify-content: end;
+            position: relative
+        }
+
+        .animated {
+            font-size: 3rem;
+            font-family: sans-serif;
+            border: 0.1rem solid black;
+            background-color: #fff;
+            color: #000;
+            position: absolute;
+            top: -80%;
+            left: 50%;
+            overflow: hidden;
+            width: 20rem;
+            white-space: nowrap;
+            transform: rotate(45deg);
+        }
+
+        .animated>* {
+            box-sizing: border-box;
+        }
+
+        span {
+            -webkit-text-fill-color: #fff;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #000;
+        }
+
+        .animated>* {
+            display: inline-block;
+            position: relative;
+            animation: 10s linear 0s infinite alternate move;
+        }
+
+        .animated>*.min {
+            min-width: 100%;
+        }
+
+        @keyframes move {
+
+            0%,
+            25% {
+                transform: translateX(0%);
+                left: 0%;
+            }
+
+            75%,
+            100% {
+                transform: translateX(-100%);
+                left: 100%;
+            }
+        }
+
+        .image {
+            position: absolute;
+            top: 50%;
+            left: 80%;
+            width: 50%;
+            margin: -10em 0 0 -10em;
+            animation: spin 10s linear infinite;
+        }
+
+        @keyframes spin {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="animated">
+            <h1>
+                <span>2019</span> JUNE 21,
+                <span>2019</span> JUNE 21,
+                <span>2019</span> JUNE 21,
+                <span>2019</span> JUNE 21,
+                <span>2019</span> JUNE 21,
+            </h1>
+        </div>
+
+        <img class="image" src="assets/img/cc-circle-2.png" alt="">
+    </div>
+
+</body>
+
+</html>

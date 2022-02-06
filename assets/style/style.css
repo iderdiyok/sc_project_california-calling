@@ -1,0 +1,500 @@
+@import 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap';
+@font-face {
+  font-family: "Larish";
+  src: url(../fonts/LarishNeueSemibold.woff);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+h1, h2, h3 {
+  font-family: LarishNeue;
+}
+
+h1 {
+  font-size: 6.5em;
+}
+
+h2 {
+  font-size: 7em;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.3em;
+}
+
+p, a {
+  font-family: "Work Sans", sans-serif;
+  text-decoration: unset;
+  color: unset;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+.rsvp-button {
+  font-size: 1.3em;
+  padding: 0.9em 2.2em;
+  border: 1px solid #fff;
+  transition: all 0.5s ease-in-out;
+}
+.rsvp-button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.p-0-1 {
+  padding: 0 1em;
+}
+
+.bearText {
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+.bearText p {
+  font-size: 1.3em;
+  margin: 4% auto;
+}
+.bearText .titel {
+  margin-top: -12%;
+  width: 50%;
+}
+.bearText .commentary {
+  width: 80%;
+}
+
+.bg-black {
+  background-color: #000;
+  color: #fff;
+}
+
+main .firstSection {
+  height: 300vh;
+}
+main .firstSection .img-line {
+  width: 100%;
+  height: 25vh;
+}
+main .firstSection .text {
+  text-align: center;
+  margin: 3em 0;
+}
+main .firstSection .text .stroke {
+  margin-top: -0.4em;
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+main .firstSection .logoBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7em;
+}
+main .firstSection .numberAndMap {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+main .firstSection .numberAndMap .textNumber {
+  padding: 9em 7em;
+}
+main .firstSection .numberAndMap .textNumber h2 {
+  padding: 0.1em 0 0.2em 0;
+}
+main .firstSection .numberAndMap img {
+  width: 98%;
+  transform: rotate(-1deg);
+}
+main .secondSection {
+  position: relative;
+  height: 205vh;
+}
+main .secondSection img {
+  position: absolute;
+}
+main .secondSection #action1 {
+  width: 25%;
+  top: -30%;
+  bottom: "";
+  right: "";
+  left: 67%;
+}
+main .secondSection #action2 {
+  width: 20%;
+  top: -8%;
+  bottom: "";
+  right: "";
+  left: 4%;
+}
+main .secondSection #action3 {
+  width: 20%;
+  top: 15%;
+  bottom: "";
+  right: 0;
+  left: "";
+}
+main .secondSection #action4 {
+  width: 25%;
+  top: 30%;
+  bottom: "";
+  right: "";
+  left: 15%;
+}
+main .secondSection #action5 {
+  width: 25%;
+  top: 43%;
+  bottom: "";
+  right: "";
+  left: 62%;
+}
+main .secondSection #action6 {
+  width: 20%;
+  top: 64%;
+  bottom: "";
+  right: "";
+  left: 0%;
+}
+main .secondSection #action7 {
+  width: 33%;
+  top: "";
+  bottom: -5%;
+  right: "";
+  left: 45%;
+  z-index: 3;
+}
+main .secondSection .titleAndText p, main .secondSection .textMiddle p {
+  line-height: 1.7;
+}
+main .secondSection .titleAndText {
+  width: 34%;
+  margin: 50vh auto;
+}
+main .secondSection .titleAndText h2 {
+  font-size: 6em;
+}
+main .secondSection .textMiddle {
+  width: 36%;
+  margin: 95vh auto;
+}
+main .thirdSection {
+  height: 150vh;
+  position: relative;
+  padding: 20% 0 0 10%;
+}
+main .thirdSection .gb-1 {
+  position: absolute;
+  z-index: 2;
+  width: 55%;
+  top: "";
+  bottom: -13%;
+  right: "";
+  left: 10%;
+}
+main .thirdSection .gb-2 {
+  position: absolute;
+  z-index: 3;
+  width: 28%;
+  top: "";
+  bottom: -6%;
+  right: 12%;
+  left: "";
+}
+main .thirdSection img {
+  width: 100%;
+}
+main .fourthSection {
+  height: 210vh;
+  position: relative;
+  padding: 15% 0 0 10%;
+  overflow: hidden;
+}
+main .fourthSection .bearText {
+  margin-top: 23%;
+}
+main .fourthSection #circle {
+  position: absolute;
+  z-index: -1;
+  width: 50%;
+  top: -11%;
+  bottom: "";
+  right: -15%;
+  left: "";
+  -webkit-animation: spin 10s linear infinite;
+          animation: spin 10s linear infinite;
+}
+@-webkit-keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+main .fourthSection .pb-1 {
+  position: absolute;
+  z-index: 2;
+  width: 53%;
+  top: "";
+  bottom: 5%;
+  right: "";
+  left: 39%;
+}
+main .fourthSection .pb-2 {
+  position: absolute;
+  z-index: 3;
+  width: 29%;
+  top: "";
+  bottom: 9%;
+  right: "";
+  left: 15%;
+}
+main .fourthSection img {
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  height: 96vh;
+  overflow: hidden;
+}
+footer .animated {
+  position: absolute;
+  transform: rotate(45deg);
+  background-color: #fff;
+  height: 8rem;
+  color: #000;
+  width: 100%;
+  top: 29%;
+  bottom: "";
+  right: -26%;
+  left: "";
+}
+footer .animated h1 {
+  width: 400%;
+  -webkit-animation: move 10s infinite linear;
+          animation: move 10s infinite linear;
+}
+footer .animated h1 span {
+  color: #fff;
+  -webkit-text-stroke: 1px #000;
+}
+@-webkit-keyframes move {
+  0% {
+    transform: translateX(6%);
+  }
+  50% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(6%);
+  }
+}
+@keyframes move {
+  0% {
+    transform: translateX(6%);
+  }
+  50% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(6%);
+  }
+}
+footer .dayOfWeek {
+  display: none;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  height: 8rem;
+  color: #000;
+}
+footer .dayOfWeek span {
+  color: #fff;
+  -webkit-text-stroke: 1px #000;
+}
+footer .join-us {
+  width: 30%;
+  line-height: 2.7em;
+  margin: 7% 0 0 10%;
+}
+footer .join-us p, footer .join-us h3 {
+  margin-bottom: 5%;
+}
+footer .logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7% 15% 1% 10%;
+}
+footer .logos .social img {
+  width: 25px;
+}
+footer .logos .social p {
+  margin-top: 0.5em;
+}
+footer .logos .partner {
+  display: flex;
+  align-items: flex-end;
+  width: 15%;
+}
+footer .logos .partner img {
+  width: 50%;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  h2 {
+    font-size: 6em;
+  }
+
+  main .firstSection {
+    height: 260vh;
+  }
+  main .thirdSection {
+    height: 120vh;
+  }
+  main .fourthSection {
+    height: 170vh;
+  }
+}
+@media screen and (max-width: 991px) {
+  h2 {
+    font-size: 5em;
+  }
+
+  .p-0-1 {
+    padding: 2em 1em;
+  }
+
+  .bearText {
+    display: unset;
+  }
+  .bearText p {
+    font-size: 1.5em;
+  }
+  .bearText .titel {
+    margin: 3em 0;
+    width: unset;
+  }
+
+  main .firstSection {
+    height: 205vh;
+  }
+  main .firstSection .text {
+    margin: 12em 0;
+  }
+  main .secondSection {
+    width: 80%;
+    height: unset;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em 0;
+    position: unset;
+  }
+  main .secondSection img {
+    position: unset;
+  }
+  main .secondSection #action1, main .secondSection #action2 {
+    width: 45%;
+  }
+  main .secondSection #action7 {
+    width: 80%;
+  }
+  main .secondSection .titleAndText, main .secondSection .textMiddle {
+    width: unset;
+    margin: 5em auto;
+  }
+  main .thirdSection {
+    height: 75vh;
+  }
+  main .fourthSection {
+    height: 90vh;
+  }
+
+  footer {
+    height: 81vh;
+  }
+  footer .animated {
+    display: none;
+  }
+  footer .dayOfWeek {
+    display: block;
+  }
+  footer .join-us {
+    width: 50%;
+  }
+  footer .join-us p, footer .join-us h3 {
+    margin-bottom: 20%;
+  }
+}
+@media screen and (max-width: 680px) {
+  h1 {
+    font-size: 3.5em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  .p-0-1 {
+    padding: 4em 1em;
+  }
+
+  main .firstSection {
+    height: 290vh;
+  }
+  main .firstSection .text {
+    margin: 4em 0;
+  }
+  main .firstSection .logoBtn {
+    padding: 12em 2em 0 2em;
+  }
+  main .firstSection .numberAndMap {
+    display: unset;
+  }
+  main .firstSection .numberAndMap .textNumber {
+    padding: 0em 3em;
+  }
+  main .firstSection .numberAndMap img {
+    padding: 0;
+    width: 98%;
+  }
+  main .thirdSection {
+    height: 100vh;
+  }
+  main .fourthSection {
+    height: 120vh;
+    padding: 25% 0 0 10%;
+  }
+  main .fourthSection #circle {
+    top: -5%;
+  }
+
+  footer {
+    height: 110vh;
+  }
+  footer .dayOfWeek {
+    height: 5rem;
+  }
+  footer .join-us {
+    width: 75%;
+  }
+  footer .logos {
+    display: block;
+    padding: 11% 15% 5% 10%;
+  }
+  footer .logos .partner {
+    width: 70%;
+    padding-top: 1em;
+  }
+}/*# sourceMappingURL=style.css.map */
